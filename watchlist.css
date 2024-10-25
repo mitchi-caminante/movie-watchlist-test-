@@ -1,0 +1,27 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    width: 90%;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-image: url(/movie-theater.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: bottom;
+    width: 100%;
+    height: 50vh;
+}
+h1 {
+    color: white;
+}
+
+#go-to-search {
+    color: white;
+}
